@@ -1,9 +1,4 @@
-function digitize(n) {
-	let array = n.toString().split('').reverse()
-	for (let i = 0; i < array.length; i++) {
-		array[i] = Number(array[i])
-	}
-	return array
+function litres(time) {
+	return time * 0.5
 }
-
-console.log(digitize(123))
+console.log(litres(2))
